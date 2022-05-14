@@ -1,3 +1,7 @@
+# 功能
+- 实现对localStorager的加密封装
+- 对localStorager进行有效期限制
+
 # 如何安装
 - npm install bstorager
 - yarn add bstorager
