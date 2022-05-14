@@ -27,3 +27,7 @@ bstorager.get(key)
 ```
 bstorager.getExpire(key)
 ```
+## 清除历史过期数据
+```
+bstorager.clear()
+```
