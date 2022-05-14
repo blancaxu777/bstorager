@@ -8,12 +8,10 @@
   </head>
   <body>
     <script type="module">
-      import sys from "../dist/index.js";
-      // console.log(sys.save());
-      const { save } = sys
-      console.log(save)
-      sys.save("name", { name: "blanca" }, "1m");
-      console.log(sys.get("name"));
+      import bstorager from '../dist/index.js';
+      bstorager.save('name', { name: 'blanca' }, '10s');
+      console.log(bstorager.get('name'));
+      window.clear = bstorager.clear
     </script>
   </body>
 </html>
